@@ -3,21 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>DankiCode Landing Page</title>
   </head>
   <body>
     <header>
       <div class="center">
-        <img src="assets/logo.png" alt="logo">
+        <img src="assets/logo.png" alt="logo" />
       </div>
     </header>
     <div class="container-banner">
       <div class="center">
-        <form>
-          
-        </form>
+        <ul>
+          <li>Tópico 1</li>
+          <li>Tópico 2</li>
+          <li>Tópico 3</li>
+        </ul>
+        <div class="form">
+          <h2>Preencha o formulário para dar o seu start!</h2>
+          <form>
+            <div class="input-container">
+              <label for="name">Nome</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="input-container">
+              <label for="email">E-mail</label>
+              <input type="text" id="email" required />
+            </div>
+            <div class="input-container">
+              <label for="phone">Telefone</label>
+              <input type="text" id="phone" required />
+            </div>
+            <input type="submit" value="Enviar" />
+            <p>Ao enviar você concorda com os Termos de Serviço.</p>
+          </form>
+        </div>
       </div>
     </div>
+
+    <section class="about">
+      <div class="center">
+        <h2>Lorem ipsum</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          delectus perspiciatis temporibus quasi quaerat, deserunt eveniet
+          voluptatem at velit dicta quibusdam pariatur adipisci similique.
+          Maiores officiis facilis velit tempora. Et. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Facilis delectus perspiciatis temporibus
+          quasi quaerat, deserunt eveniet voluptatem at velit dicta quibusdam
+          pariatur adipisci similique. Maiores officiis facilis velit tempora.
+          Et.
+        </p>
+      </div>
+      <img src="./assets/arrow.png" class="seta" />
+    </section>
+
+    <section class="details">
+      <div class="center">
+        <h3>Aprenda com quem está no mercado!</h3>
+        <div class="cards">
+          <div class="card">
+            <img src="./assets/icon.png" />
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+              accusantium nobis, voluptatibus facere, consequuntur veritatis
+              maiores voluptas ea porro autem sunt distinctio, odio
+              reprehenderit. Vitae ipsam voluptate tempore optio? Nostrum.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/icon.png" />
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+              accusantium nobis, voluptatibus facere, consequuntur veritatis
+              maiores voluptas ea porro autem sunt distinctio, odio
+              reprehenderit. Vitae ipsam voluptate tempore optio? Nostrum.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/icon.png" />
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+              accusantium nobis, voluptatibus facere, consequuntur veritatis
+              maiores voluptas ea porro autem sunt distinctio, odio
+              reprehenderit. Vitae ipsam voluptate tempore optio? Nostrum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Todos os diretos reservados.</p>
+      <p>By Emanuel Tavecia</p>
+    </footer>
   </body>
 </html>
