@@ -29,7 +29,7 @@ header {
   float: left;
   width: 150px;
   height: 60px;
-  background-image: url('../imagens/logo1.png');
+  background-image: url('./assets/logo1.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +39,7 @@ header {
   float: right;
   width: 160px;
   height: 60px;
-  background-image: url('../imagens/logo2.png');
+  background-image: url('./assets/logo2.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,7 +54,7 @@ section.cover-form {
   height: 560px;
   background-position: center;
   background-size: cover;
-  background-image: url('../imagens/bg-form.jpg');
+  background-image: url('./assets/bg-form.jpg');
 }
 
 .form-container {
@@ -64,6 +64,7 @@ section.cover-form {
   top: -2.5%;
   width: 400px;
   height: 105%;
+	border-radius: 12px;
   -webkit-box-shadow: 2px 2px 5px 0px rgba(117, 117, 117, 1);
   -moz-box-shadow: 2px 2px 5px 0px rgba(117, 117, 117, 1);
   box-shadow: 2px 2px 5px 0px rgba(117, 117, 117, 1);
@@ -86,6 +87,10 @@ section.cover-form {
 .form-container form p {
   font-size: 14px;
   color: #525252;
+}
+
+.form-container * {
+	border-radius: 12px;
 }
 
 .form-wraper:not(:first-child) {
@@ -131,7 +136,7 @@ section.chamada {
   width: 64px;
   height: 64px;
   background-size: 100% 100%;
-  background-image: url('../imagens/arrow.png');
+  background-image: url('./assets/arrow.png');
 }
 
 section.chamada div.container {
